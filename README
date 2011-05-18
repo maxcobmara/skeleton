@@ -1,8 +1,17 @@
 Skeleton App
 
-A basic skeleton application for rails that has the following basic functions
+A basic skeleton application for rails (2.3.5, Ruby 1.8.7) that has the following basic functions
 
 User Logins
 Roles
 Multi-Language
+
+
+Feel free to copy, hope it helps!
+
+
+Coming is
+-------------
 Drop Down Menus
+Locations, with hierarchy, and tree.
+Rails 3
