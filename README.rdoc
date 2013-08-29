@@ -1,27 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Skeleton App updated for Rails 4 & Ruby 2
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A skeleton application to get you started and ready to roll any sort of app.
+Preconfigured with 
+#Capybara, Selenium, RSpec for Testing
+#Twitter Bootstrap 3
 
 
 Please feel free to use a different markup language if you do not plan to run
