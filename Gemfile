@@ -4,6 +4,7 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem "thin", "~> 1.5.1"
+gem 'devise'
 gem 'bootstrap-sass', '~> 2.3.2.0'
 gem "bootstrap-sass-rails", "~> 3.0.0.2"
 
