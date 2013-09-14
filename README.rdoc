@@ -6,8 +6,9 @@ A skeleton application to get you started and ready to roll any sort of app.
 Preconfigured with 
 #Capybara, Selenium, RSpec for Testing
 #Thin Webserver
-#Twitter Bootstrap 3
+#Twitter Bootstrap 3 with custom icon helper
 #Dual Language
+#Devise authentication with integrated error messages
 
 
 Please feel free to use a different markup language if you do not plan to run
