@@ -7,6 +7,7 @@ Preconfigured with
 #Capybara, Selenium, RSpec for Testing
 #Thin Webserver
 #Twitter Bootstrap 3
+#Dual Language
 
 
 Please feel free to use a different markup language if you do not plan to run
