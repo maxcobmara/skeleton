@@ -15,6 +15,10 @@ gem 'jbuilder', '~> 1.2'  # Build JSON APIs with ease. Read more: https://github
 gem "haml", "~> 4.0.3"
 
 
+group :assets do
+  gem "modernizr-rails", "~> 2.6.2.3"
+end
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

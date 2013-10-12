@@ -15,21 +15,27 @@ $grayDarker: #222;
 
 /* universal */
 
-html {
-  overflow-y: scroll;
+html, body, .container, .scroller {
+	height: 100%;
 }
 
-body {
-  padding-top: 60px;
-}
+html { /*overflow-y: scroll;*/}
+body {/*padding-top: 60px;*/}
+/*section {overflow: auto;}*/
+textarea {resize: vertical;}
 
-section {
-  overflow: auto;
-}
 
-textarea {
-  resize: vertical;
+.container {
+	position: relative;
+	overflow: hidden;
+	/*max-width: none !important;*/
+	/*background: #34495e;*/
 }
+/*scroller to activate menu*/
+.scroller {/*overflow-y: scroll;*/}
+.scroller, .scroller-inner {position: relative;}
+
+
 
 .center {
   text-align: center;
@@ -38,8 +44,6 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
-
-/* typography */
 
 /* typography */
 
