@@ -23,7 +23,6 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.iwt {margin-right:20px; border: solid 2px red}
 
 .icon-female:before {
 	content: "\f182";
@@ -201,6 +200,4 @@
 	content: "\e02f";
 }
 
-[class^="icon-"] {
-  background-image:none;
-}
+
