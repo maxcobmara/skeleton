@@ -180,3 +180,24 @@ input[type=checkbox] {width:13px; height:13px; *overflow: hidden; }
   @extend .control-group;
   @extend .error;
 }
+
+
+/* Menu Burger */
+
+.menu-trigger {
+	position: relative;
+	padding-left: 60px;
+	font-size: 1.3em;
+  font-color: #34495e;
+}
+
+.menu-trigger:before {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 40px;
+	height: 6px;
+	background: #000;
+	box-shadow: 0 6px #fff, 0 12px #000, 0 18px #fff, 0 24px #000;
+	content: '';
+}

@@ -19,7 +19,7 @@
           .content.clearfix
             .block
               = render 'layouts/header'
-              %a#trigger.menu-trigger{:href => "#"} Open/Close Menu
+              //%a#trigger.menu-trigger{:href => "#"} Open/Close Menu
               - flash.each do |key, value|
                 %div{:class => "alert alert-#{key}"}= value
               = yield
