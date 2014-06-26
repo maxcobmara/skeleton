@@ -37,7 +37,7 @@ textarea {resize: vertical;}
 .scroller {/*overflow-y: scroll;*/}
 .scroller, .scroller-inner {position: relative;}
 
-
+.yield_block { margin: 0 50px; min-height:550px;}
 
 .center {
   text-align: center;
@@ -56,6 +56,8 @@ textarea {resize: vertical;}
 	}
 	h2 {color: #f7f7f7; }
 }
+
+#mp-menu {min-height:600px; height:100%;}
 
 
 /* typography */
@@ -188,3 +190,36 @@ input[type=checkbox] {width:13px; height:13px; *overflow: hidden; }
 .dl-horizontal {padding:0; margin:0;
   dt {font-weight:bold;}
 }
+
+
+/* home page */
+.hero-unit {
+background-image:url('http://placekitten.com/1260/340');
+background-repeat:no-repeat;
+background-position:right bottom;
+
+  
+  .overlay {background: rgba(0,0,0,0.5); padding:20px;
+  h1 {color:#FFF !important; text-align:left;}
+  h2 {color:#FFF !important; text-align:left; font-weight:normal; letter-spacing:3px;}
+  }
+}
+
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+

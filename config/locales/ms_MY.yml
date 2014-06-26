@@ -1,8 +1,11 @@
 ms_MY:
-  sidebar:
-    home: Rumah
-    
-    
+  home: 
+    welcome: Selamat Datang ke Skeleton
+    appname: Skeleton
+    email: Email
+    password: Password
+    signin: Sign in
+
     
   helpers:
     links:
