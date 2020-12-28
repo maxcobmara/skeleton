@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
+ruby '2.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '4.1.16'
 gem "thin", "~> 1.6.0"
 gem "devise", "~> 3.1.1"
 gem 'bootstrap-sass', '~> 2.3.2.2'
