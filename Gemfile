@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.1.4'
+ruby '2.2.10'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.16'
-gem "thin", "~> 1.6.0"
-gem "devise", "~> 4.7.3"
+gem "thin", "~> 1.6.4"
+gem "devise", "~> 4.2.1"
 gem 'bootstrap-sass', '~> 2.3.2.2'
-gem 'sass-rails', '4.0.0'
+gem 'sass-rails', '4.0.4'
 gem 'uglifier', '~> 2.1.1'  # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.0.0'  # Use CoffeeScript for .js.coffee assets and views
 gem "jquery-rails", "~> 3.1.5"  # Use jquery as the JavaScript library
@@ -25,15 +25,14 @@ end
 # gem 'therubyracer', platforms: :ruby
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
-  gem "rspec-rails", "~> 2.14.2"
-  gem 'guard-rspec', "~> 2.5.0"
+  gem 'sqlite3', '1.3.12'
+  #gem "rspec-rails", "~> 3.5.2"
+  #gem 'guard-rspec', "~> 4.7.3"
 end
 
 group :test do
-  gem "selenium-webdriver", "~> 2.35.1"
-  gem "capybara", "~> 2.1.0"
-  gem 'growl', '1.0.3'
+  #gem "selenium-webdriver", "~> 2.53.4"
+  #gem "capybara", "~> 2.7.1"
 end
 
 group :doc do
