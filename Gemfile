@@ -7,7 +7,7 @@ gem "thin", "~> 1.6.4"
 gem "devise", "~> 4.2.1"
 gem 'bootstrap-sass', '~> 2.3.2.2'
 gem 'sass-rails', '4.0.4'
-gem 'uglifier', '~> 2.1.1'  # Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '~> 2.7.2'  # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.0.0'  # Use CoffeeScript for .js.coffee assets and views
 gem "jquery-rails", "~> 3.1.5"  # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 1.1.1'  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
