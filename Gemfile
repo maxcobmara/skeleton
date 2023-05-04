@@ -2,19 +2,19 @@ source 'https://rubygems.org'
 ruby '2.2.10'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.16'
+gem 'rails', '4.2.11.3'
 gem "thin", "~> 1.6.4"
-gem "devise", "~> 4.2.1"
+gem "devise", "~> 4.9.2"
 gem 'bootstrap-sass', '~> 2.3.2.2'
-gem 'sass-rails', '4.0.4'
+gem 'sass-rails', '6.0.0'
 gem 'uglifier', '~> 2.1.1'  # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.0.0'  # Use CoffeeScript for .js.coffee assets and views
-gem "jquery-rails", "~> 3.1.5"  # Use jquery as the JavaScript library
+gem "jquery-rails", "~> 4.5.1"  # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 1.1.1'  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder', '~> 1.2'  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "haml", "~> 4.0.3"
-gem 'font-awesome-rails', '~> 4.1.0.0'
-gem "bootstrap-datepicker-rails", "~> 1.1.1.9"
+gem 'font-awesome-rails', '~> 4.7.0.8'
+gem "bootstrap-datepicker-rails", "~> 1.9.0.1"
 gem "bootstrap-select-rails", "~> 1.3.0.1"
 
 group :assets do
